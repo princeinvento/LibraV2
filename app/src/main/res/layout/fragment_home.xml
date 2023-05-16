@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@drawable/login_bg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/appname"
+                android:text="@string/app_name"
+                android:textSize="32dp"
+                android:fontFamily="@font/dmserif_display_regular"
+                android:textColor="@color/black"
+
+                />
+
+            <com.synnapps.carouselview.CarouselView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/main_card"
+                android:layout_below="@id/appname"
+                app:radius="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_card"
+                android:id="@+id/last_read"
+                android:text="Last Read >"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingLeft="0dp"
+                android:fontFamily="@font/dmserif_display_regular"
+                style="@style/Widget.Material3.Button.TextButton"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycle_lastread"
+                android:layout_below="@id/last_read"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycle_lastread"
+                android:id="@+id/other_books"
+                android:text="Other Books >"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:paddingLeft="0dp"
+                android:fontFamily="@font/dmserif_display_regular"
+                style="@style/Widget.Material3.Button.TextButton"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycle_otherbooks"
+                android:layout_below="@id/other_books"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+</FrameLayout>

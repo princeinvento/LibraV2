@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1053825167825",
+    "project_id": "libra-972a7",
+    "storage_bucket": "libra-972a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053825167825:android:4e8b95594f8312769d30f0",
+        "android_client_info": {
+          "package_name": "com.powerpuff.libra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053825167825-pg5uvbkvkvhj76eamp32h2ma0cdfssk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgnUk2PYsUJCUCBYWT5HVryhloZxjw7zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053825167825-pg5uvbkvkvhj76eamp32h2ma0cdfssk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053825167825:android:a9907d0ea8ce72c89d30f0",
+        "android_client_info": {
+          "package_name": "com.powerpuff.librav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053825167825-pg5uvbkvkvhj76eamp32h2ma0cdfssk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgnUk2PYsUJCUCBYWT5HVryhloZxjw7zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053825167825-pg5uvbkvkvhj76eamp32h2ma0cdfssk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
